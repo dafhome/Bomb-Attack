@@ -1,0 +1,117 @@
+
+.header{
+    /* margin: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: sticky;
+    top 20px;
+}
+
+.navbar, footer{
+    /* margin: 20px; */
+    width: 100%;
+    height: 260px;
+    padding-right: 30px;
+    background-color: #005EAD;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    border-style: solid;
+    border-color: #005EAD;
+    border-radius: 5px;
+    
+}
+.footer{
+    justify-content: end;
+    margin-top: 50px;
+}
+.logo{
+    height: 250px;
+    border: 5px;
+    border-style: solid;
+    border-color: #005EAD;
+    border-radius: 5px;
+}
+
+.board{
+    border: 5px;
+    border-style: solid;
+    border-color: #005EAD;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board-exterior{
+
+    display: flex;
+    gap: 160px;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+    /* width: 80%; */
+}
+
+.bomb{
+    height: 300px;
+    width: 300px;
+    background-image: url(/images/bomba4.png);
+    /* background-image: url(/images/bomb1.jpeg); */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border-style: solid;
+    border-color: #005EAD;
+    border-radius: 5px; */
+}
+
+.explode{
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#explode:hover{
+    background-image: url(images/explosion2.png);
+    scale: 150%;
+    transition: 5s;
+}
+
+#win:hover{
+    background-image: url(images/coin-star-transformed.png);
+    transform: 
+    
+    rotateY(3600deg)
+    translate(0px, -150px);
+    transition: 5s;
+    
+
+}
+
+.bomb:hover{
+    background-image:url(images/white.png);
+    transition: 2s;
+    scale: 120%;
+}
+
+.bullet-bill{
+    height: 250px;
+    border: 5px;
+    border-style: solid;
+    border-color: #005EAD;
+    border-radius: 5px;
+    /* display: none; */
+}
+
+.bullet-bill:hover{
+    translate: ( -1000px, 0px);
+    transition: 3s;
+}
